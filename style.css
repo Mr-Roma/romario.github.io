@@ -1,0 +1,150 @@
+
+.jumbotron{
+    padding-top: 10rem;
+    background-color: #36454f;
+    
+}
+
+#projects{
+    background-color: #36454f;
+}
+
+
+section{
+    padding-top: 5rem;
+}
+
+h2,h1{
+    font-weight: bold;
+}
+
+
+/* My Languages*/
+.languages-box1{
+    background-color: rgb(86, 91, 130);
+    border-radius: 10px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+
+.languages-box1::before{
+    content: "KOTLIN";
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 6em;
+    font-weight: bold;
+    font-style: italic;
+    top: -20px;
+    left: -900px;
+    transition: 0.5s;
+    opacity: 0;
+
+}
+
+.languages-box1:hover::before{
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 0.5;
+}
+
+.languages-img1{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 200px;
+    transition: 0.5s;
+}
+
+.languages-box1:hover .languages-img1{
+    transform: translate(-50%, -50%) rotate(5deg) scale(1.2);
+}
+
+
+
+/* 2 */
+.languages-box2{
+    background-color: rgb(86, 91, 130);
+    border-radius: 10px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+
+.languages-box2::before{
+    content: "GOLANG";
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 6em;
+    font-weight: bold;
+    font-style: italic;
+    top: -20px;
+    left: -900px;
+    transition: 0.5s;
+    opacity: 0;
+
+}
+
+.languages-box2:hover::before{
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 0.5;
+}
+
+.languages-img2{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 350px;
+    transition: 0.5s;
+}
+
+.languages-box2:hover .languages-img2{
+    transform: translate(-50%, -50%) rotate(5deg) scale(1.2);
+}
+
+/* 3 */
+
+.languages-box3{
+    background-color: rgb(86, 91, 130);
+    border-radius: 10px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+
+.languages-box3::before{
+    content: "C++";
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 6em;
+    font-weight: bold;
+    font-style: italic;
+    top: -30px;
+    left: -900px;
+    transition: 0.5s;
+    opacity: 0;
+
+}
+
+.languages-box3:hover::before{
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 0.5;
+}
+
+.languages-img3{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 200px;
+    transition: 0.5s;
+}
+
+.languages-box3:hover .languages-img3{
+    transform: translate(-50%, -50%) rotate(5deg) scale(1.2);
+}
+
